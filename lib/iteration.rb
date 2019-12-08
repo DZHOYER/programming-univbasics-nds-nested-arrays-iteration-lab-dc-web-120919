@@ -39,9 +39,9 @@ def total_even_pairs(src)
       if (src[row_index][element_index] % 2 == 0) & (src[row_index][element_index + 1] % 2 == 0)
         total += src[row_index][element_index] + src[row_index][element_index + 1]
       end
-    element_index += 2
+      element_index += 2
     end
     row_index +=1
   end
-  total
+ puts total
 end
