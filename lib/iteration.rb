@@ -20,11 +20,9 @@ while row_index < src.length do
     new_array << src[row_index][0]
   else
     new_array << src[row_index][1]
-      end
-     element_index += 2
-    end
-    row_index += 1
   end
+  row_index += 1
+end
   new_array
 end
 
